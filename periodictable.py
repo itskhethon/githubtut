@@ -8,7 +8,7 @@ from xml.dom.minidom import Element
 elementFile = open ('periodictable.csv', encoding='utf-8')
 elementCSVReader = csv.reader(elementFile)
 elements = list(elementCSVReader)
-elementFile.close() nn
+elementFile.close() 
 
 ALL_C0LUMNS = ['Atomuc Number','Symbol', 'Element', 'Origin of name',
                 'Group', 'Periodic', 'Atomiic weight', 'Density',
